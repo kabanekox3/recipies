@@ -1,40 +1,84 @@
 * {
-    background-color: pink;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: whitesmoke;
-    font-weight: bolder;
     box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    background-color: pink;
+    font-family: sans-serif;
     text-align: center;
-    border: 10px, purple;
+}
+
+.link-list {
+    width: 600px;
+    height: 300px;
+    font-weight: bolder;
+    font-size: 28px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 125px;
+    border: 5px;
+    border-style: solid;
+    border-color: palevioletred;
+}
+
+.inverted {
+    background-color:  aliceblue;
+    color: pink;
 }
 
 a {
-    font-size: 28px;
-    background-color: aliceblue;
-    color: rebeccapurple;
+    text-align: center;
 }
 
-li {
-    color: rebeccapurple;
-    background-color: aliceblue;
-}
-
-ul {
-    background-color: aliceblue;
-}
-
-h1 {
-    font-size: 32px;
-    background-color: aliceblue;
-    color: rebeccapurple
-}
-
-div {
-    background-color: aliceblue;
-    width: 1000px;
-    height: 300px;
+.header {
+    border: 10px, solid, rebeccapurple;
+    height: fit-content;
+    width: fit-content;
     margin: auto;
-    border: 20px,  rgb(215, 160, 255);
-    padding: 75px;
-    margin-top: 50px;
+    font-size: 28px;
+    padding: 25px;
+}
+
+.protocol-list {
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+    display: block;
+    background-color: aliceblue;
+    color: pink;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 5px;
+    border-color: palevioletred;
+    border-style: solid;
+}
+
+.header.inverted {
+    border: 5px;
+    border-style: solid;
+    border-color: palevioletred;
+}
+
+.flavour-text {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+#page-head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
 }
