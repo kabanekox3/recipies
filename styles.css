@@ -10,7 +10,13 @@ body {
     text-align: center;
 }
 
-/*.link-list {
+
+
+/*
+
+obsolete
+
+.link-list {
     width: 600px;
     height: 300px;
     font-weight: bolder;
